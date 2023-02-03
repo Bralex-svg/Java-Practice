@@ -42,20 +42,28 @@ public class HelloWorld {
 
         // Switch Statement Demo
 
-        int score = 100;
-        switch (score) {
-            case 100:
-                System.out.println("Very good");
-                break;
+        // int score = 100;
+        // switch (score) {
+        // case 100:
+        // System.out.println("Very good");
+        // break;
 
-            case 80:
-                System.out.println("Good");
-                break;
-            case 50:
-                System.out.println("Average");
+        // case 80:
+        // System.out.println("Good");
+        // break;
+        // case 50:
+        // System.out.println("Average");
 
-            default:
-                System.out.println("out of definition");
+        // default:
+        // System.out.println("out of definition");
+        // }
+
+        // WHILE LOOP DEMO
+        int x = 0;
+        while (x < 10) {
+            System.out.println(x);
+            x++;
+            break;
         }
 
     }
