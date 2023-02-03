@@ -1,5 +1,5 @@
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class HelloWorld {
 
@@ -18,27 +18,45 @@ public class HelloWorld {
         // CONDITIONAL STATEMENTS DEMO
 
         // GRADING SYSTEM USING IF ELSE STATEMENT
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your name");
-        String name = sc.nextLine();
-        System.out.println("Enter score 1-100");
-        int score = sc.nextInt();
-        sc.close();
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter your name");
+        // String name = sc.nextLine();
+        // System.out.println("Enter score 1-100");
+        // int score = sc.nextInt();
+        // sc.close();
 
-        String grade;
-        if (score >= 80) {
-            grade = "A";
-        } else if (score >= 70) {
-            grade = "B";
+        // String grade;
+        // if (score >= 80) {
+        // grade = "A";
+        // } else if (score >= 70) {
+        // grade = "B";
 
-        } else if (score >= 60) {
-            grade = "C";
-        } else {
-            grade = "F";
+        // } else if (score >= 60) {
+        // grade = "C";
+        // } else {
+        // grade = "F";
+        // }
+        // System.out.println("Your name" + name);
+        // System.out.println("Your score" + score);
+        // System.out.println("Your grade" + grade);
+
+        // Switch Statement Demo
+
+        int score = 100;
+        switch (score) {
+            case 100:
+                System.out.println("Very good");
+                break;
+
+            case 80:
+                System.out.println("Good");
+                break;
+            case 50:
+                System.out.println("Average");
+
+            default:
+                System.out.println("out of definition");
         }
-        System.out.println("Your name" + name);
-        System.out.println("Your score" + score);
-        System.out.println("Your grade" + grade);
 
     }
 
