@@ -9,13 +9,11 @@ public class HelloWorld {
     // to variable y, and the sum of x and y to the
     // variable z, and print out z.
 
-    int grade = 50;
-
-    if (grade < 50) {
-      System.out.println("failed grade");
-    } else {
-      System.out.println("passed grade");
-    }
+    int cls = 0;
+    do {
+      System.out.println(cls);
+      cls++;
+    } while (cls <= 300);
 
     // Accepting user input
 
